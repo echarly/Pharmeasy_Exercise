@@ -23,11 +23,7 @@ namespace Pharmeasy_Exercise
         [FindsBy(How = How.XPath, Using = "//a[@href='/health-care/devices-46']")]
         IWebElement devicesButton;
 
-        [FindsBy(How = How.XPath, Using = "//div[contains(text(), 'Popularity')]")]
-        IWebElement sortButton;
 
-        [FindsBy(How = How.XPath, Using = "//li[@data-value='price:0']")]
-        IWebElement lowToHigh;
 
         public medLife_HomePage(IWebDriver driver)
         {
@@ -43,14 +39,14 @@ namespace Pharmeasy_Exercise
             //Handle Welcome banner
             handleWelcomeBanner();
 
+            //Wait Time
+            WaitTime(healthCareLink);
             healthCareLink.Click();
-            devicesButton.Click();
-            sortButton.Click();
-            lowToHigh.Click();
 
-            /*SelectElement el = new SelectElement(userName);
-            el.SelectByValue("bla");
-            */
+            //Wait Time
+            WaitTime(devicesButton);
+
+            devicesButton.Click();
 
             return this;
         }
@@ -59,7 +55,7 @@ namespace Pharmeasy_Exercise
         {
             try
             {
-                //  Block of code to try
+                WaitTime(welcomeBanner);
                 welcomeBanner.Click();
             }
             catch (Exception e)

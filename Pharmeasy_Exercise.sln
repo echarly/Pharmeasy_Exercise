@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmeasy_Exercise", "SauceDemo_Workshop\Pharmeasy_Exercise\Pharmeasy_Exercise.csproj", "{7C61426C-4B04-4F42-9872-8D347819C4BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmeasyTest", "SauceDemo_Workshop\SauceTest\PharmeasyTest.csproj", "{B4BB0127-FB1F-4B28-A483-AF6A8BB8A9CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C61426C-4B04-4F42-9872-8D347819C4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C61426C-4B04-4F42-9872-8D347819C4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C61426C-4B04-4F42-9872-8D347819C4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C61426C-4B04-4F42-9872-8D347819C4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BB0127-FB1F-4B28-A483-AF6A8BB8A9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BB0127-FB1F-4B28-A483-AF6A8BB8A9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BB0127-FB1F-4B28-A483-AF6A8BB8A9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BB0127-FB1F-4B28-A483-AF6A8BB8A9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {474B93E2-08E7-4D52-B917-A3A12C441043}
+	EndGlobalSection
+EndGlobal
